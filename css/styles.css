@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
+body {
+    background-color: #07213B;
+    color: white; /* Ensures readability */
+    font-family: 'Roboto', sans-serif; /* Futuristic, sporty font */
+}
+
+header, .banner, .container, nav, .nav-links, a, main, .card, .input, .button, footer {
+    /* Resetting styles to ensure consistency */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Update text color for better visibility */
+h1, h2, h3, p {
+  color: white; /* Makes sure text stands out against the new dark background */
+}
+
+.menu-icon {
+  cursor: pointer;
+  padding: 10px;
+  font-size: 20px;
+}
+
+.nav-links ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.nav-links li {
+  padding: 8px;
+  margin: 5px;
+}
+
+/* Basic styling for links, adjust as necessary */
+.nav-links a {
+  text-decoration: none;
+  color: #000;
+}
+
+/* Update other elements as needed to fit the new color scheme */
+/* Example for navigation links */
+.nav-links a {
+  color: white; /* Adjust if your links are not clearly visible */
+}
+
+.nav-links a:hover {
+  color: #EDB500; /* Optional: Change hover color for visual interest */
+}
+
+.banner {
+  position: relative;
+  background-image: url('../Images/dunno1.jpg'); 
+  background-size: cover;
+  background-position: center;
+  height: 300px; /* You can adjust this value */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+}
+
+.banner-content {
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent overlay */
+  padding: 20px;
+}
+
+h1 {
+  margin: 0 0 10px 0;
+}
+
+p {
+  margin: 0;
+}
+
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.nav-links {
+    list-style: none;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black */
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding:}
+
+    /* Newsletter Section */
+#subscribe {
+  background-color: white; /* Bright background for the section */
+  color: #143977; /* Deep blue text for contrast */
+  padding: 20px;
+  text-align: center;
+}
+
+#subscribe h2 {
+  color: #EDB500; /* Gold/yellow color to draw attention to the heading */
+  margin-bottom: 15px; /* Spacing between the heading and the form */
+}
+
+#subscribe form {
+  max-width: 500px; /* Limit the form width for aesthetics */
+  margin: auto; /* Center the form horizontally */
+}
+
+#subscribe input[type="email"] {
+  width: 80%; /* Responsive width */
+  padding: 10px;
+  margin-bottom: 10px; /* Spacing between the input and the button */
+  border: 2px solid #143977; /* Deep blue border */
+  background-color: #f0f0f0; /* Light background for the input */
+  color: #143977; /* Text color */
+}
+
+#subscribe .button {
+  width: 85%; /* Slightly larger than the input field */
+  padding: 10px;
+  border: none;
+  background-color: #143977; /* Deep blue background */
+  color: white; /* White text */
+  cursor: pointer; /* Indicate it's clickable */
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out; /* Smooth transition for hover effect */
+}
+
+#subscribe .button:hover {
+  background-color: #EDB500; /* Gold/yellow background on hover */
+  color: #143977; /* Deep blue text on hover */
+}
+
